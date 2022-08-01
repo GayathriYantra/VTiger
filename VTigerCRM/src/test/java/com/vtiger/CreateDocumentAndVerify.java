@@ -17,7 +17,7 @@ public class CreateDocumentAndVerify {
 
 	public static void main(String[] args) throws InterruptedException
 	{
-				// setting up browser
+				
 				WebDriverManager.firefoxdriver().setup();
 
 				// creating object for browser
