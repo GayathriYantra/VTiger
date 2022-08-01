@@ -29,7 +29,6 @@ public class CreateInvoicePage
 	public WebElement getSelectContactLink() {
 		return selectContactLink;
 	}
-//method to git
 	
 	public WebElement getCalender() {
 		return calender;
