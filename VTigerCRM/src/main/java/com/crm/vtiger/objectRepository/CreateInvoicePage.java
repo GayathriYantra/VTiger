@@ -13,7 +13,7 @@ public class CreateInvoicePage
 		PageFactory.initElements(driver, this);
 	}
 
-	//declaretion
+	//declaretion with annotations
 	@FindBy(name = "subject") private WebElement subjectNameEdt;
 
 	@FindBy(xpath = "//tr[5]//td[2]//img[@src='themes/softed/images/select.gif']") private WebElement selectContactLink;
