@@ -33,6 +33,7 @@ public class CreateOrganisationTest {
 	public static void main(String[] args) throws Throwable {
 		WebDriver driver = null;
 
+		// create organization is done
 		// creating Objects for generic utility classes
 		ExcelUtility eLib = new ExcelUtility();
 		FileUtility fLib=new FileUtility();
