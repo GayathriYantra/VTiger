@@ -7,12 +7,10 @@ import org.openqa.selenium.support.PageFactory;
 
 public class ContactsPage
 {
-
-
-	//declaretion
+	//declaretion 
 	@FindBy(xpath = "//img[@title='Create Contact...']") private WebElement createContactName;
 
-	//intialization
+	//intialization of webelements
 	public ContactsPage(WebDriver driver)
 	{
 		PageFactory.initElements(driver, this);
