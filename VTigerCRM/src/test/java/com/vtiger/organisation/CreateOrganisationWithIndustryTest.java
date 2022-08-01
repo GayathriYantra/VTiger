@@ -32,7 +32,7 @@ public class CreateOrganisationWithIndustryTest
 {
 	public static void main(String[] args) throws Throwable {
 		WebDriver driver = null;
-
+		// create organization with industry is done
 		// creating Objects for generic utility classes
 		ExcelUtility eLib = new ExcelUtility();
 		FileUtility fLib=new FileUtility();
