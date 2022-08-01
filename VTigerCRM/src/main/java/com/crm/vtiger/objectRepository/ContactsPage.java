@@ -9,10 +9,10 @@ public class ContactsPage
 {
 
 
-	//declaretion
+	//Declaration
 	@FindBy(xpath = "//img[@title='Create Contact...']") private WebElement createContactName;
 
-	//intialization
+	//Initialization
 	public ContactsPage(WebDriver driver)
 	{
 		PageFactory.initElements(driver, this);
@@ -21,5 +21,9 @@ public class ContactsPage
 	//utilization
 	public WebElement getCreateContactName() {
 		return createContactName;
+	}
+	public void clickCreateContactLkpIcon()
+	{
+		createContactName.click();
 	}
 }

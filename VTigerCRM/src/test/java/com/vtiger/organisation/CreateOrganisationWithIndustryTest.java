@@ -1,9 +1,6 @@
 package com.vtiger.organisation;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.time.Duration;
-import java.util.Properties;
+
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

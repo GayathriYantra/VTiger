@@ -1,16 +1,8 @@
 package com.vtiger.organisation;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.time.Duration;
-import java.util.Properties;
-
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.support.ui.Select;
 
 import com.crm.GenericUtility.ExcelUtility;
 import com.crm.GenericUtility.FileUtility;
@@ -91,7 +83,6 @@ public class CreateOrganisationTest {
 
 		//click on create organization LookupIcon
 		OrganisationPage organisationPage = new OrganisationPage(driver);
-		organisationPage.clickOrganisationLkpIcon();
 
 		//click on create organisation
 		CreateOrganizationPage createOrganization=new CreateOrganizationPage(driver);
@@ -115,9 +106,7 @@ public class CreateOrganisationTest {
 		//Click on Sign Out
 		homepage.Logout(driver);
 		
-		//quit the broswer
+		//quit the browser
 		driver.quit();
 	}
-
-
 }

@@ -70,6 +70,10 @@ public class HomePage extends WebDriverUtility
 		mouseOveronElement(driver,administratorLink);
 		signOut.click();
 	}
+	public void clickContactLink()
+	{
+		contactsLink.click();
+	}
 	
 } 
 
