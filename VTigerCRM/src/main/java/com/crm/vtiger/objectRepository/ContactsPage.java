@@ -11,6 +11,7 @@ public class ContactsPage
 	@FindBy(xpath = "//img[@title='Create Contact...']") private WebElement createContactName;
 
 	//intialization of webelements
+	//initialization
 	public ContactsPage(WebDriver driver)
 	{
 		PageFactory.initElements(driver, this);
