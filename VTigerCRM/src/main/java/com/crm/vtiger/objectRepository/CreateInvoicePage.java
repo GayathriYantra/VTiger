@@ -20,5 +20,22 @@ public class CreateInvoicePage
 
 	@FindBy(name = "invoicedate") private WebElement calender;
 
-	@FindBy(name="button") private WebElement 
+	@FindBy(name="button") private WebElement button;
+
+	public WebElement getSubjectNameEdt() {
+		return subjectNameEdt;
+	}
+
+	public WebElement getSelectContactLink() {
+		return selectContactLink;
+	}
+
+	public WebElement getCalender() {
+		return calender;
+	}
+
+	public WebElement getButton() {
+		return button;
+	}
+	
 }
