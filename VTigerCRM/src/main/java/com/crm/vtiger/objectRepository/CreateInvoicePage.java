@@ -29,7 +29,7 @@ public class CreateInvoicePage
 	public WebElement getSelectContactLink() {
 		return selectContactLink;
 	}
-
+//method
 	public WebElement getCalender() {
 		return calender;
 	}
